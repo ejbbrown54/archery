@@ -27,6 +27,10 @@ h3 {
   grid-template-rows: auto auto auto auto auto;
 }
 
+.hide {
+  display: none;
+}
+
 
 
 /* THE BELOW CODE IS FOR THE HEADER & NAVIGATION */
@@ -198,12 +202,20 @@ margin-bottom: 3.4em;
   text-transform: uppercase;
 }
 
+.class-options h3 {
+  text-align: center;
+}
+
 .class-description {
-  background-color:
+  background-color: #1b447f;
+  border-radius: 15px;
 }
 
 .class-description p, ul {
   font-size: 12px;
+  color: white;
+  padding-left: 2em;
+  padding-right: 1em;
 }
 
 .lesson-options h2 {
@@ -222,8 +234,12 @@ h2 + p {
   margin-left: 8rem;
   margin-right: 8rem;
   margin-top: 2rem;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 15px;
+}
+
+.lesson-description h3 {
+  text-align: left;
 }
 
 .video-section {

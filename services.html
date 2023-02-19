@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Classes & Private Lessons</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>Straight to the Point Archery</h1>
-      <img src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-color.png" alt="Blue Straight to the Point logo">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
+    <div class="grid-container">
+    <header class="header">
+       <img src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png" alt="White Straight to the Point logo">
+       <nav class="nav">
+        <ul class="nav-items">
+          <li><a href="index.html">About</a></li>
           <li>Services</li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -18,6 +19,7 @@
     </header>
 
     <main>
+    <div class="classes-container">
       <section class="class-options">
         <h2>Services</h2>
         <article class="class-description">
@@ -50,7 +52,7 @@
           </ul>
         </article>
       </section>
-
+    </div>
       <section class="lesson-options">
 
         <article class="lesson-description">
@@ -74,16 +76,18 @@
 
     </main>
 
-    <footer>
-      <img src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg" class="footer-img" alt="blue footer image">
-      <img src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png" alt="white Straight to the Point logo">
-      <address class="">
-        <p>Straight to the Point Archery</p>
+    <footer class="footer">
+      <div class="footer-content">
+        <img src="https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/archeryAcademy-logo-white.png" alt="white Straight to the Point logo">
+        <address class="footer-address">
+        <h4>Straight to the Point Archery</h4>
         <p>528 Nock Point Ln<br>Tacoma, WA 98412</p>
-      </address>
-      <p>archery-education@example.com<br>(253) 555-1010</p>
-      <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
+        </address>
+        <p>Contact us at:<br>archery-education@example.com<br>(253) 555-1010</p>
+        <p class="non-discrimination">Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
+        <p>&copy;2023 Straight to the Point Archery</p>
+      </div>
     </footer>
-
+  </div>
   </body>
 </html>

@@ -179,7 +179,7 @@ h3 {
 
 .footer {
   grid-area: 4 / 1 / 5 / 2;
-  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-image: url("images/footer-image.jpeg");
   font-size: .8em;
   color: white;
 }
